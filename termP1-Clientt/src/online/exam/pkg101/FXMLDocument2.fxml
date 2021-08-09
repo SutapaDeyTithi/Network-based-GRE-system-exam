@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="707.0" prefWidth="978.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="online.exam.pkg101.FXMLDocumentController">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="2000.0" prefWidth="1000.0" style="-fx-background-color: white;">
+         <children>
+            <Label fx:id="q1op1" layoutX="68.0" layoutY="158.0" prefHeight="30.0" prefWidth="284.0">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <Label fx:id="q1op2" layoutX="61.0" layoutY="206.0" prefHeight="31.0" prefWidth="305.0">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <Label fx:id="q1op3" layoutX="470.0" layoutY="153.0" prefHeight="43.0" prefWidth="356.0">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <Label fx:id="q1op4" layoutX="462.0" layoutY="199.0" prefHeight="43.0" prefWidth="474.0">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <Button fx:id="submit" layoutX="812.0" layoutY="32.0" mnemonicParsing="false" onAction="#submit_clicked" text="SUBMIT">
+               <font>
+                  <Font size="18.0" />
+               </font></Button>
+            <Label fx:id="q1" layoutX="36.0" layoutY="79.0" prefHeight="62.0" prefWidth="944.0">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <Label fx:id="q2" layoutX="36.0" layoutY="268.0" prefHeight="68.0" prefWidth="819.0">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <RadioButton fx:id="b2op1" layoutX="33.0" layoutY="367.0" mnemonicParsing="false" onAction="#radio_button_clicked2" />
+            <RadioButton fx:id="b2op2" layoutX="33.0" layoutY="420.0" mnemonicParsing="false" onAction="#radio_button_clicked2" />
+            <RadioButton fx:id="b2op3" layoutX="424.0" layoutY="368.0" mnemonicParsing="false" onAction="#radio_button_clicked2" />
+            <RadioButton fx:id="b2op4" layoutX="424.0" layoutY="421.0" mnemonicParsing="false" onAction="#radio_button_clicked2" />
+            <Label fx:id="q2op1" layoutX="60.0" layoutY="361.0" prefHeight="33.0" prefWidth="348.0">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <Label fx:id="q2op2" layoutX="61.0" layoutY="415.0" prefHeight="32.0" prefWidth="353.0">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <Label fx:id="q2op3" layoutX="460.0" layoutY="357.0" prefHeight="41.0" prefWidth="494.0">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <Label fx:id="q2op4" layoutX="455.0" layoutY="413.0" prefHeight="35.0" prefWidth="400.0">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <Label fx:id="q3op1" layoutX="65.0" layoutY="551.0" prefHeight="35.0" prefWidth="336.0">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <Label fx:id="q3op2" layoutX="68.0" layoutY="604.0" prefHeight="38.0" prefWidth="339.0">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <Label fx:id="q3op3" layoutX="451.0" layoutY="548.0" prefHeight="41.0" prefWidth="372.0">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <Label fx:id="q3op4" layoutX="453.0" layoutY="605.0" prefHeight="36.0" prefWidth="422.0">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <RadioButton fx:id="b3op4" layoutX="424.0" layoutY="612.0" mnemonicParsing="false" onAction="#radio_button_clicked3" />
+            <RadioButton fx:id="b3op1" layoutX="33.0" layoutY="558.0" mnemonicParsing="false" onAction="#radio_button_clicked3" />
+            <RadioButton fx:id="b3op2" layoutX="33.0" layoutY="612.0" mnemonicParsing="false" onAction="#radio_button_clicked3" prefHeight="21.0" prefWidth="25.0" />
+            <RadioButton fx:id="b3op3" layoutX="424.0" layoutY="569.0" mnemonicParsing="false" onAction="#radio_button_clicked3" />
+            <Label layoutX="68.0" layoutY="902.0" />
+            <Label fx:id="q3" layoutX="34.0" layoutY="479.0" prefHeight="53.0" prefWidth="943.0">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <RadioButton fx:id="b1op1" layoutX="34.0" layoutY="162.0" mnemonicParsing="false" onAction="#radio_button_clicked1" />
+            <RadioButton fx:id="b1op2" layoutX="34.0" layoutY="211.0" mnemonicParsing="false" onAction="#radio_button_clicked1" />
+            <RadioButton fx:id="b1op3" layoutX="428.0" layoutY="162.0" mnemonicParsing="false" onAction="#radio_button_clicked1" />
+            <RadioButton fx:id="b1op4" layoutX="428.0" layoutY="207.0" mnemonicParsing="false" onAction="#radio_button_clicked1" prefHeight="29.0" prefWidth="25.0" />
+            <Label fx:id="countDown" layoutX="7.0" layoutY="37.0" prefHeight="42.0" prefWidth="248.0" text="Count Down">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="q4" layoutX="31.0" layoutY="653.0" prefHeight="57.0" prefWidth="934.0">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="q4op1" layoutX="70.0" layoutY="714.0" prefHeight="33.0" prefWidth="314.0">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="q4op2" layoutX="71.0" layoutY="769.0" prefHeight="33.0" prefWidth="326.0" text="Label">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label />
+            <Label fx:id="q4op3" layoutX="462.0" layoutY="704.0" prefHeight="33.0" prefWidth="352.0" text="Label">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="q4op4" layoutX="462.0" layoutY="758.0" prefHeight="35.0" prefWidth="395.0" text="Label">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <RadioButton fx:id="b4op1" layoutX="34.0" layoutY="720.0" mnemonicParsing="false" onAction="#radio_button_clicked4" />
+            <RadioButton fx:id="b4op2" layoutX="33.0" layoutY="775.0" mnemonicParsing="false" onAction="#radio_button_clicked4" />
+            <RadioButton fx:id="b4op3" layoutX="424.0" layoutY="710.0" mnemonicParsing="false" onAction="#radio_button_clicked4" />
+            <RadioButton fx:id="b4op4" layoutX="424.0" layoutY="765.0" mnemonicParsing="false" onAction="#radio_button_clicked4" prefHeight="21.0" prefWidth="35.0" />
+            <Label fx:id="q5" layoutX="38.0" layoutY="839.0" prefHeight="49.0" prefWidth="809.0" text="Label">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="q5op1" layoutX="64.0" layoutY="892.0" prefHeight="47.0" prefWidth="347.0" text="Label">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="q5op3" layoutX="468.0" layoutY="891.0" prefHeight="48.0" prefWidth="416.0" text="Label">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="q5op2" layoutX="63.0" layoutY="950.0" prefHeight="35.0" prefWidth="349.0" text="Label">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="q5op4" layoutX="469.0" layoutY="943.0" prefHeight="50.0" prefWidth="502.0" text="Label">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <RadioButton fx:id="b5op1" layoutX="35.0" layoutY="905.0" mnemonicParsing="false" onAction="#radio_button_clicked5" />
+            <RadioButton fx:id="b5op3" layoutX="428.0" layoutY="905.0" mnemonicParsing="false" onAction="#radio_button_clicked5" />
+            <RadioButton fx:id="b5op2" layoutX="33.0" layoutY="957.0" mnemonicParsing="false" onAction="#radio_button_clicked5" />
+            <RadioButton fx:id="b5op4" layoutX="428.0" layoutY="957.0" mnemonicParsing="false" onAction="#radio_button_clicked5" />
+            <Label fx:id="q6" layoutX="41.0" layoutY="1018.0" prefHeight="38.0" prefWidth="942.0" text="Label">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="q6op1" layoutX="65.0" layoutY="1072.0" prefHeight="33.0" prefWidth="345.0" text="Label">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="q6op3" layoutX="461.0" layoutY="1075.0" prefHeight="28.0" prefWidth="373.0" text="Label">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="q6op2" layoutX="65.0" layoutY="1127.0" prefHeight="32.0" prefWidth="345.0" text="Label">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="q6op4" layoutX="466.0" layoutY="1124.0" prefHeight="38.0" prefWidth="473.0" text="Label">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <RadioButton fx:id="b6op1" layoutX="37.0" layoutY="1078.0" mnemonicParsing="false" onAction="#radio_button_clicked6" />
+            <RadioButton fx:id="b6op3" layoutX="432.0" layoutY="1078.0" mnemonicParsing="false" onAction="#radio_button_clicked6" />
+            <RadioButton fx:id="b6op2" layoutX="37.0" layoutY="1132.0" mnemonicParsing="false" onAction="#radio_button_clicked6" />
+            <RadioButton fx:id="b6op4" layoutX="432.0" layoutY="1133.0" mnemonicParsing="false" onAction="#radio_button_clicked6" />
+            <Label fx:id="q7" layoutX="29.0" layoutY="1206.0" prefHeight="33.0" prefWidth="844.0" text="Label">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="q7op1" layoutX="65.0" layoutY="1255.0" prefHeight="32.0" prefWidth="345.0" text="Label">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="q7op2" layoutX="65.0" layoutY="1301.0" prefHeight="35.0" prefWidth="346.0" text="Label">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="q7op3" layoutX="461.0" layoutY="1256.0" prefHeight="37.0" prefWidth="407.0" text="Label">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="q7op4" layoutX="461.0" layoutY="1312.0" prefHeight="33.0" prefWidth="396.0" text="Label">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <RadioButton fx:id="b7op1" layoutX="37.0" layoutY="1260.0" mnemonicParsing="false" onAction="#radio_button_clicked7" />
+            <RadioButton fx:id="b7op2" layoutX="37.0" layoutY="1308.0" mnemonicParsing="false" onAction="#radio_button_clicked7" />
+            <RadioButton fx:id="b7op3" layoutX="428.0" layoutY="1263.0" mnemonicParsing="false" onAction="#radio_button_clicked7" />
+            <RadioButton fx:id="b7op4" layoutX="428.0" layoutY="1318.0" mnemonicParsing="false" onAction="#radio_button_clicked7" />
+            <Label fx:id="q8" layoutX="36.0" layoutY="1371.0" prefHeight="37.0" prefWidth="998.0" text="Label">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="q8op1" layoutX="61.0" layoutY="1422.0" prefHeight="31.0" prefWidth="354.0" text="Label">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="q8op3" layoutX="455.0" layoutY="1417.0" prefHeight="37.0" prefWidth="443.0" text="Label">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="q8op2" layoutX="63.0" layoutY="1472.0" prefHeight="35.0" prefWidth="342.0" text="Label">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="q8op4" layoutX="459.0" layoutY="1468.0" prefHeight="44.0" prefWidth="387.0" text="Label">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <RadioButton fx:id="b8op1" layoutX="37.0" layoutY="1430.0" mnemonicParsing="false" onAction="#radio_button_clicked8" />
+            <RadioButton fx:id="b8op2" layoutX="37.0" layoutY="1479.0" mnemonicParsing="false" onAction="#radio_button_clicked8" />
+            <RadioButton fx:id="b8op3" layoutX="428.0" layoutY="1427.0" mnemonicParsing="false" onAction="#radio_button_clicked8" />
+            <RadioButton fx:id="b8op4" layoutX="428.0" layoutY="1481.0" mnemonicParsing="false" onAction="#radio_button_clicked8" />
+            <Label fx:id="q9" layoutX="41.0" layoutY="1538.0" prefHeight="21.0" prefWidth="751.0" text="Label">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="q9op1" layoutX="65.0" layoutY="1582.0" prefHeight="33.0" prefWidth="346.0" text="Label">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="q9op3" layoutX="457.0" layoutY="1576.0" prefHeight="35.0" prefWidth="393.0" text="Label">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="q9op2" layoutX="67.0" layoutY="1623.0" prefHeight="32.0" prefWidth="370.0" text="Label">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="q9op4" layoutX="459.0" layoutY="1624.0" prefHeight="34.0" prefWidth="390.0" text="Label">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <RadioButton fx:id="b9op1" layoutX="35.0" layoutY="1588.0" mnemonicParsing="false" onAction="#radio_button_clicked9" />
+            <RadioButton fx:id="b9op3" layoutX="428.0" layoutY="1586.0" mnemonicParsing="false" onAction="#radio_button_clicked9" />
+            <RadioButton fx:id="b9op2" layoutX="37.0" layoutY="1629.0" mnemonicParsing="false" onAction="#radio_button_clicked9" />
+            <RadioButton fx:id="b9op4" layoutX="428.0" layoutY="1629.0" mnemonicParsing="false" onAction="#radio_button_clicked9" />
+            <Label fx:id="q10" layoutX="38.0" layoutY="1696.0" prefHeight="45.0" prefWidth="993.0" text="Label">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="q10op1" layoutX="62.0" layoutY="1751.0" prefHeight="34.0" prefWidth="363.0" text="Label">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="q10op2" layoutX="62.0" layoutY="1793.0" prefHeight="33.0" prefWidth="362.0" text="Label">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="q10op3" layoutX="466.0" layoutY="1748.0" prefHeight="39.0" prefWidth="402.0" text="Label">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="q10op4" layoutX="467.0" layoutY="1792.0" prefHeight="35.0" prefWidth="482.0" text="Label">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <RadioButton fx:id="b10op1" layoutX="35.0" layoutY="1756.0" mnemonicParsing="false" onAction="#radio_button_clicked10" />
+            <RadioButton fx:id="b10op2" layoutX="34.0" layoutY="1799.0" mnemonicParsing="false" onAction="#radio_button_clicked10" />
+            <RadioButton fx:id="b10op3" layoutX="434.0" layoutY="1756.0" mnemonicParsing="false" onAction="#radio_button_clicked10" />
+            <RadioButton fx:id="b10op4" layoutX="434.0" layoutY="1799.0" mnemonicParsing="false" onAction="#radio_button_clicked10" />
+            <TextField layoutX="544.0" layoutY="36.0" visible="false" />
+            <Label layoutX="12.0" layoutY="83.0" prefHeight="52.0" prefWidth="22.0" text="1.">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="6.0" layoutY="261.0" prefHeight="74.0" prefWidth="35.0" text=" 2.">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="4.0" layoutY="476.0" prefHeight="58.0" prefWidth="28.0" text=" 3.">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="8.0" layoutY="648.0" prefHeight="67.0" prefWidth="33.0" text=" 4.">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="7.0" layoutY="839.0" prefHeight="50.0" prefWidth="27.0" text=" 5.">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="5.0" layoutY="993.0" prefHeight="86.0" prefWidth="36.0" text="  6.">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="2.0" layoutY="1177.0" prefHeight="93.0" prefWidth="26.0" text=" 7.">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="11.0" layoutY="1357.0" prefHeight="65.0" prefWidth="23.0" text=" 8.">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="6.0" layoutY="1510.0" prefHeight="78.0" prefWidth="35.0" text=" 9.">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="5.0" layoutY="1694.0" prefHeight="52.0" prefWidth="36.0" text=" 10.">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="5.0" prefHeight="32.0" prefWidth="260.0" text="Time :        mm : ss">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+         </children>
+         <effect>
+            <Blend />
+         </effect></AnchorPane>
+  </content>
+</ScrollPane>
